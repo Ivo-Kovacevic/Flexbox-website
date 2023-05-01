@@ -1,0 +1,197 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #5593F3;
+}
+header > div {
+    color: white;
+    padding: 50px;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+}
+.lijevo{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+}
+.desno{
+    display: flex;
+    align-items: center;
+    border-left: 2px solid white;
+}
+.background{
+    background-color: white;
+}
+.okvir {
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.continent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6F1FE;
+    margin: 2px;
+    border-radius: 20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    background-color: #5593F3;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+i{
+    margin: auto;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+h2{
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #5593F3;
+    justify-content: space-evenly;
+}
+nav > div {
+    display: baseline;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+}
+#divA {
+    padding-top: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+#divB {
+    padding-top: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+#divC {
+    padding-top: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+#divD {
+    padding-top: 20px;
+    font-size: 40px;
+    align-content: center;
+}
+#divE {
+    align-content: center;
+}
+.tablica{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1000px;
+    border: 2px solid #5593F3;
+}
+.jedan{
+    display: flex;
+    flex-grow: 2;
+    border: 2px solid #5593F3;
+}
+.dva{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid #5593F3;
+}
+.tri{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid #5593F3;
+}
+.cetiri{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid #5593F3;
+}
+.pet{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid #5593F3;
+}
+footer{
+    margin: auto;
+    padding: 100px;
+    color: white;
+    background-color: red;
+}
+@media (max-width: 767px){
+    header{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background-color: #5593F3;
+    }
+    header > div {
+        color: white;
+        padding: 50px;
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+    }
+    .lijevo{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        width: 100%;
+        border-bottom: 4px solid white;
+    }
+    .desno{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        border-left: 0px solid white;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav div{
+        margin-bottom: 2px;
+    }
+    #divA {
+        order:2;
+    }
+    #divB {
+        order:3;
+    }
+    #divC {
+        order:4;
+    }
+    #divD {
+        order:5;
+    }
+    #divE {
+        order:1;
+    }
+    .okvir {
+        display: flex;
+        align-content: center;
+        margin: 0 auto;
+        max-width: 900px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
